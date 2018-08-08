@@ -27,7 +27,7 @@ Ctrl+c and Ctr+v
 import { el, r} from './el.mjs'
 
 var body = el('div', {}, 'Hello world')
-var layout = el('MyLayout', {id: 'layout'}, body, text, footer)
+var layout = el('MyLayout', {id: 'layout'}, body)
 console.log(r(layout))
 
 ```
