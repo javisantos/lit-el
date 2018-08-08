@@ -1,0 +1,8 @@
+{
+  "name": "lit-el",
+  "version": "1.0.0",
+  "description": "The most amazing literal layout framework to manage micro frontends never created.",
+  "main": "el.mjs",
+  "author": "Javi Santos <mail@javisantos.com>",
+  "license": "MIT"
+}

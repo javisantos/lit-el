@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="module">
+
+        import {el,r} from './el.mjs'
+
+        var header = el('header', {style:"color:blue"}, 'Hello world<br>') 
+        var lis = (item) => el('item', {}, `<li>${item}</li>`)
+        var text = el('text', {}, `<ul>${["item1", "item2", "item3"].map((item)=>lis(item))}</ul>`)
+        var footer = el('footer', {}, 'Amazing!')
+
+        var app = el('my-app', {id: '1'}, header, text, footer)
+
+        r(app)
+
+    </script>
+
+    </script>
+
+    <title>lit-el</title>
+</head>
+
+<body>
+<!-- Content loaded here -->
+</body>
+
+</html>
