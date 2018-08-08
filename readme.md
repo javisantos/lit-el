@@ -28,7 +28,7 @@ import { el, r} from './el.mjs'
 
 var body = el('div', {}, 'Hello world')
 var layout = el('MyLayout', {id: 'layout'}, body, text, footer)
-console.log(r(page))
+console.log(r(layout))
 
 ```
 
